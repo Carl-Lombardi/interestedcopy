@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
-  app.use('/static', express.static(path.join(_dirname, 'client/build')));
+  app.use(express.static('client'));
 }
 
 mongoose.connect('mongodb://heroku_9lbkcnmx:tojec01gm9uqqp7i7ol9jb6dke@ds151086.mlab.com:51086/heroku_9lbkcnmx', {useCreateIndex:true, useNewUrlParser: true }, 
