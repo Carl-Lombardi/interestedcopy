@@ -1,5 +1,6 @@
 {
   "name": "mern",
+  "homepage": "https://interestedcopy.herokuapp.com/",
   "version": "0.1.0",
   "description": "Mern Demo",
   "private": true,
