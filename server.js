@@ -15,10 +15,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
-   app.use('/static', express.static(path.join('./', 'client')));
+  app.use('/static', express.static(path.join(_dirname, 'client/build')));
 }
 
-mongoose.connect('mongodb://heroku_fdbt2cm1:deg6bbpc8lfr4ldj14actncmcg@ds129023.mlab.com:29023/heroku_fdbt2cm1', {useCreateIndex:true, useNewUrlParser: true }, 
+mongoose.connect('mongodb://heroku_9lbkcnmx:tojec01gm9uqqp7i7ol9jb6dke@ds151086.mlab.com:51086/heroku_9lbkcnmx', {useCreateIndex:true, useNewUrlParser: true }, 
 ); 
 
 app.use('/api', require('./routes/api'));

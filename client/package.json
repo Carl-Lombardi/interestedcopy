@@ -1,9 +1,7 @@
 {
   "name": "mern",
-  "homepage": "https://interestedcopy.herokuapp.com/",
   "version": "0.1.0",
   "description": "Mern Demo",
-  "homepage": "https://interestedcopy.herokuapp.com/",
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
