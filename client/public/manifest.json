@@ -1,8 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "manifest_version": 1,
+  "name": "Interested",
+  "start-url": "https://interestedcopy.herokuapp.com",
+  "version": "1.0",
+  "description": "Interested is an App to Simplify Dating"
 }

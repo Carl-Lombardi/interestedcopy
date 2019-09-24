@@ -1,5 +1,6 @@
 {
   "name": "Interested",
+  "homepage": "https://interestedcopy.herokuapp.com/",
   "version": "1.0.0",
   "description": "Interested is a new App allowing for people to connect via pets and other interests",
   "main": "server.js",
