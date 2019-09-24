@@ -1,0 +1,128 @@
+.list-overflow-container {
+    margin-top: 5%;
+    max-height: 545px;
+    border: 1px #DDDDDD solid;
+    border-radius: 4px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  .list-overflow-container ul {
+    margin: 0;
+  }
+  
+  .list-overflow-container li {
+    border-radius: 0px;
+    border-left: none;
+    border-right: none;
+    color: #232121;
+  }
+  
+  .delete-btn {
+      margin-left: 2%;
+      color:red;
+  }
+
+
+  .list-overflow-container li * {
+    cursor: pointer;
+  }
+  /* .pointer       { cursor: pointer; } */
+  
+  .list-overflow-container li a {
+    color: #2A878C;
+  }
+  
+  .list-overflow-container li:first-child {
+    border-top: none;
+  }
+  
+  .list-overflow-container li:last-child {
+    border-bottom: none;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+    margin-top: 5%;
+}
+element.style {
+    color: red;
+    margin-left: 2%;
+}
+
+
+
+
+#button {
+    background: #383838;
+    color: #ddd;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    position: initial;
+    float: left;
+    /* margin-left: 70px;
+    margin-top: 30px; */
+}
+
+#formbtn {
+  color: #ddd;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 670px;
+  margin-right: 670px;
+  margin-top: 30px;
+}
+
+#name{
+  color: #ddd;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#age{
+  color: #ddd;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#gender{
+  color: #ddd;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#state{
+  color: #ddd;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#hobbies{
+  color: #ddd;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#email{
+  color: #ddd;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.profilepage {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  color: white;
+  /* position: inherit; */
+  /* float: left; */
+}
+
+
+.delete-btn {
+  color: red;
+  position: inherit;
+  float: inherit;
+}

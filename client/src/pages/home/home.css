@@ -1,0 +1,26 @@
+body{
+  background-color: #222;
+}
+
+.Home {
+    text-align: center;
+  }
+  
+  .Home-logo {
+    animation: App-logo-spin infinite 12s linear;
+    height: 600px;
+    
+  }
+  
+  .Home-header {
+    background-color: #222;
+    height: 30px;
+    padding: 20px;
+    color: white;
+  }
+  
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
