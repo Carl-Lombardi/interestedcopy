@@ -34,8 +34,6 @@ app.use(bodyParser.json());
 mongoose.connect('mongodb://heroku_9lbkcnmx:tojec01gm9uqqp7i7ol9jb6dke@ds151086.mlab.com:51086/heroku_9lbkcnmx', {useCreateIndex:true, useNewUrlParser: true }, 
 ); 
 
-mongoose.Promise = global.Promise;
-mongoose.connect(MONGODB_URI, { useCreateIndex: true, useNewUrlParser: true });
 const connection = mongoose.connection;
 
 connection.once('open', function() {
