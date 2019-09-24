@@ -1,6 +1,6 @@
 const express = require ('express');
 const router = express.Router();
-const User = require('../models/profile.js');
+const User = require('../../models/profile.js');
 
 //GET Request to Pull Information
 router.get('/users', function(req, res, next){
