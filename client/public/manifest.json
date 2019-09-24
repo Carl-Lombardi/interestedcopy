@@ -1,6 +1,7 @@
 {
   "manifest_version": 1,
   "name": "Interested",
+  "start-url": "https://interestedcopy.herokuapp.com",
   "version": "1.0",
   "description": "Interested is an App to Simplify Dating"
 }
