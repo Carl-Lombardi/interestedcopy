@@ -1,0 +1,35 @@
+{
+  "name": "Interested",
+  "version": "1.0.0",
+  "description": "Interested is a new App allowing for people to connect via pets and other interests",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.3.2",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "firebase": "^6.3.5",
+    "firebaseui": "^4.1.0",
+    "if-env": "^1.0.4",
+    "material-ui": "^0.20.2",
+    "mongoose": "^5.6.10",
+    "morgan": "^1.9.1"
+  }
+}
